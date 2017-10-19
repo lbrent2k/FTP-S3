@@ -9,7 +9,6 @@ for obj in bucket.objects.all():
 
 oldlist=[]
 for obj in bucket.objects.all():
-    print(obj.key)
     oldlist.append(obj.key)
 print 'end of loop'
 print oldlist
